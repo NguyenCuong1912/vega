@@ -1,0 +1,29 @@
+.box {
+    position: relative;
+}
+
+.base {
+    padding: 10px 0;
+    border: 1px solid #78909c;
+    border-radius: 5px;
+    min-width: 250px;
+    text-indent: 10px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.requiredLabel::after {
+    content: "*";
+    color: #b71c1c;
+    text-align: left;
+}
+.error {
+    color: #b71c1c;
+    font-size: 12px;
+    margin: 5px 0;
+}

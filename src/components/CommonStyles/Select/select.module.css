@@ -1,0 +1,19 @@
+.base {
+    padding: 10px 5px;
+    border: 1px solid #78909c;
+    border-radius: 5px;
+    padding-right: 30px;
+    min-width: 250px;
+}
+
+.requiredLabel::after {
+    content: "*";
+    color: #b71c1c;
+    text-align: left;
+}
+
+.error {
+    color: #b71c1c;
+    font-size: 12px;
+    margin: 5px 0;
+}

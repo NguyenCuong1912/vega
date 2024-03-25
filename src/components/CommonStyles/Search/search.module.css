@@ -1,0 +1,17 @@
+.box {
+    position: relative;
+}
+
+.base {
+    padding: 10px 0px;
+    border: 1px solid #78909c;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
